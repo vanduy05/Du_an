@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tuyendung.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+    <!-- Header  -->
+    <header>
+        <!--  -->
+            <div class="logo">
+                <a href="./index.html">
+                <h2>DUIES</h2>
+                </a>
+            </div>
+        <!--  -->
+        <nav>
+            <ul class="menu-tong">
+                <li><a href="./index.html">Trang chủ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="./sanpham.html">Sản phẩm</a></li>
+                <li><a href="./tuyendung.html">Tuyển dụng</a></li>
+                <li class="lienhe"><a href="#">Liên hệ</a>
+                    <ul class="menu-lienhe">
+                            <li><a href="https://www.facebook.com/hvd.duz" target="_blank">Facebook</a></li>
+                            <li><a href="https://chat.zalo.me/" target="_blank">Zalo</a></li>
+                            <li><a href="https://www.tiktok.com/@vanduieit" target="_blank">Tiktok</a></li>
+                    </ul>
+                </li>
+                <li class="accunt"><a href="#"><img src="./image/account.svg" alt=""></a>
+                    <div class="menu-accunt">
+                        <div class="img-account">
+                            <img src="./image/account.svg" alt="">
+                        </div>
+                        <div class="ten-account"><a href="#">Tên</a></div>
+                        <div><a href="#">Thông tin</a></div>
+                        <div><a href="./dangnhap.html">Đăng xuất</a></div>
+
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--  -->
+    <article>
+        <form action="" class="form">
+            <div class="info-thongbao">
+                Khung điền thông tin của nhân viên ứng tuyển
+            </div>
+            <div class="info-thongtin-ung-tuyen">
+                Thông tin ứng tuyển
+            </div>
+            <!--  -->
+            <div class="info-fullname">
+                <label for="">HỌ VÀ TÊN: <span>*</span></label><br>
+                <input type="text" placeholder="Câu trả lời của bạn" required><br>
+            </div>
+            <!--  -->
+            <div class="info-vi-tri-ung-tuyen">
+                <label for="">VỊ TRÍ ỨNG TUYỂN: <span>*</span></label><br>
+                <span>Vui lòng đọc kỹ và chọn vị trí ứng tuyển CÓ THỂ LÀM ĐƯỢC</span><br>
+                <div class="Manager">
+                    <input name="info-vi-tri-ung-tuyen" type="radio" value="Manager">
+                    <label for="">Manager (Quản Lí)</label>
+                </div>
+                <!-- <div class="Receptionist">
+                    <input name="info-vi-tri-ung-tuyen" type="radio" value="Receptionist">
+                    <label for="">Receptionist (Lễ tân)</label>
+                </div> -->
+                <div class="Staff">
+                    <input name="info-vi-tri-ung-tuyen" type="radio" value="Staff" >
+                    <label for="">Staff (Nhân viên)</label>
+                </div>
+            </div>
+            <!--  -->
+            <div class="info-ca-lam-viec">
+                <label for="">GIỜ LÀM VIỆC: <span>*</span></label><br>
+                <span>Vui lòng đọc kỹ và chọn thời gian ứng tuyển CÓ THỂ LÀM ĐƯỢC</span><br>
+                <div class="ca-sang">
+                    <input name="info-ca-lam-viec" type="radio" value="ca-sang" required>
+                    <label for="">6h - 14h</label>
+                </div>
+                <div class="ca-trua">
+                    <input name="info-ca-lam-viec" type="radio" value="ca-trua" required>
+                    <label for="">6h - 12h</label>
+                </div>
+                <div class="ca-toi">
+                    <input name="info-ca-lam-viec" type="radio" value="ca-toi" required>
+                    <label for="">14h - 22h</label>
+                </div>
+                <div class="ca-dem">
+                    <input name="info-ca-lam-viec" type="radio" value="dem" required>
+                    <label for="">14h - 18h</label>
+                </div>
+            </div>
+            <!--  -->
+            <div class="info-gioi-tinh">
+                <label for="">GIỚI TÍNH: <span>*</span></label><br>
+                <div class="nam">
+                    <input name="info-gioi-tinh" type="radio" value="nam">
+                    <label for="">Nam</label>
+                </div>
+                <div class="nu">
+                    <input name="info-gioi-tinh" type="radio" value="nu">
+                    <label for="">Nữ</label>
+                </div>
+            </div>
+            <!--  -->
+            <div class="info-ngay-sinh" >
+                <label for="">NGÀY SINH: <span>*</span></label><br>
+                <input type="date" placeholder="Ngày sinh" required><br>
+            </div>
+            <!--  -->
+            <div class="info-CCCD">
+                <label for="">SỐ CMND/CCCD: <span>*</span></label><br>
+                <span>VUI LÒNG ĐIỀN CHÍNH XÁC</span><br>
+                <input type="number" placeholder="Câu trả lời của bạn" required>
+            </div>
+            <!--  -->
+            <div class="info-sdt">
+                <label for="">SỐ ĐIỆN THOAI DI ĐỘNG: <span>*</span></label><br>
+                <span>VUI LÒNG ĐIỀN CHÍNH XÁC</span><br>
+                <input type="number" placeholder="Câu trả lời của bạn" required>
+            </div>
+            <div class="info-email">
+                <label for="">VUI LÒNG NHẬP EMAIL: <span>*</span></label><br>
+               
+                <input type="text" placeholder="Câu trả lời của bạn" required>
+            </div>
+            <!--  -->
+            <div class="info-degree">
+                <label for="">BẰNG CẤP CAO NHẤT ĐÃ ĐẠT ĐƯỢC: <span>*</span></label><br>
+                <span>(Đã tốt nghiệp)</span>
+                <div class="THCS">
+                    <input name="info-degree" type="radio" value="THCS">
+                    <label for="">THCS(Cấp 2)</label>
+                </div>
+                <div class="THPT">
+                    <input name="info-degree" type="radio" value="THPT">
+                    <label for="">THPT(Cấp 3)</label>
+                </div>
+                <div class="trungcap">
+                    <input name="info-degree" type="radio" value="trungcap">
+                    <label for="">Trung cấp</label>
+                </div>
+                <div class="Cao-Dang">
+                    <input name="info-degree" type="radio" value="Cao-Dang">
+                    <label for="">Cao đẳng</label>
+                </div>
+                <div class="Dai-Hoc">
+                    <input name="info-degree" type="radio" value="Dai-Hoc">
+                    <label for="">Đại học</label>
+            </div>
+            </div>
+            <!--  -->
+            <div class="xac-nhan">
+                    <div class="up-xac-nhan">
+                        <label for="">Bạn có đồng ý cho phép Công ty được xử lý Dữ Liệu Cá Nhân mà bạn đã
+                            cung cấp trên đây để Công ty thực hiện việc tuyển dụng theo quy định hiện hành?</label>
+                            <span>*</span>
+                    </div>
+                    <div class="down-xac-nhan">
+                        <input type="radio" name="down-xac-nhan" id="toi dong y" required>
+                        <label for="">Tôi đồng ý</label>
+                    </div>
+            </div>
+            <div class="btn-gui-di">
+                <button>Gửi</button>
+            </div>
+        </form>
+    </article>
+    <!--  -->
+    <footer>
+        Đồng hồ hiện đại chuỗi cửa hàng cung ứng DUIES@gmail.com
+    </footer>
+</body>
+</html>

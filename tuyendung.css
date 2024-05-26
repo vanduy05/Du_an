@@ -1,0 +1,288 @@
+article{
+    border: 1px solid #ccc;
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+
+article .form .info-thongbao{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+article .form{
+    line-height: 60px;
+}
+/* ================== */
+article .form .info-thongtin-ung-tuyen{
+    text-align: center;
+    font-size: 30px;
+}
+/* =================== */
+article .form .info-fullname{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-fullname label {
+    font-size: 20px;
+}
+article .form .info-fullname label span{
+    color: red !important;
+}
+article .form .info-fullname input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(194, 186, 186) ;
+    font-size: 14px;
+    outline: none;
+}
+/* ===================== */
+article .form .info-vi-tri-ung-tuyen{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-vi-tri-ung-tuyen label {
+    font-size: 20px;
+}
+article .form .info-vi-tri-ung-tuyen label span{
+    color: red !important;
+}
+/* =================== */
+article .form .info-ca-lam-viec{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-ca-lam-viec label {
+    font-size: 20px;
+}
+article .form .info-ca-lam-viec label span{
+    color: red !important;
+}
+/* ===================== */
+article .form .info-gioi-tinh{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-gioi-tinh label {
+    font-size: 20px;
+}
+article .form .info-gioi-tinh label span{
+    color: red !important;
+}
+/* ===================== */
+article .form .info-ngay-sinh{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-ngay-sinh label {
+    font-size: 20px;
+}
+article .form .info-ngay-sinh label span{
+    color: red !important;
+}
+article .form .info-ngay-sinh input{
+
+    border: none;
+    border-bottom: 1px solid rgb(194, 186, 186) ;
+    font-size: 14px;
+    outline: none;
+}
+/* ===================== */
+article .form .info-CCCD{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-CCCD label {
+    font-size: 20px;
+}
+article .form .info-CCCD label span{
+    color: red !important;
+}
+article .form .info-CCCD input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(194, 186, 186) ;
+    font-size: 14px;
+    outline: none;
+}
+/* ===================== */
+article .form .info-sdt{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-sdt label {
+    font-size: 20px;
+}
+article .form .info-sdt label span{
+    color: red !important;
+}
+article .form .info-sdt input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(194, 186, 186) ;
+    font-size: 14px;
+    outline: none;
+}
+/* ===================== */
+article .form .info-email{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-email label {
+    font-size: 20px;
+}
+article .form .info-email label span{
+    color: red !important;
+}
+article .form .info-email input{
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(194, 186, 186) ;
+    font-size: 14px;
+    outline: none;
+}
+/* ===================== */
+article .form .info-degree{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .info-degree label {
+    font-size: 20px;
+}
+article .form .info-degree label span{
+    color: red !important;
+}
+/* ===================== */
+article .form .xac-nhan{
+    background-color: #fff;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    padding-left: 40px;
+    margin-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+}
+article .form .xac-nhan .up-xac-nhan {
+    display: flex;
+    justify-content: center;
+    
+}
+article .form .xac-nhan .up-xac-nhan label {
+    font-size: 16px;
+    line-height: 24px;
+}
+article .form .xac-nhan .up-xac-nhan span{
+    color: red !important;
+    text-align: center;
+    padding-right: 10px;
+}
+/* ===================== */
+article .form .btn-gui-di{
+    padding-left: 40px;
+    margin-top: 20px;
+    margin: auto;
+    padding: 20px;
+    width: 600px;
+    
+}
+article .form .btn-gui-di button{
+    margin-top: 20px;
+    background-color: #fff;
+    justify-content: center;
+    
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    border: 2px solid rgb(194, 186, 186);
+    cursor: pointer;
+    
+}
+footer{
+    width: 100%;
+    line-height: 20px;
+    padding: 20px;
+    background-color: rgb(235, 229, 229);
+    border-top: 1px solid gray;
+    text-align: center;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-top: 80px;
+}
+nav .menu-tong li::after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: rgb(36, 199, 199);
+    margin-top: 5px;
+    padding-bottom: 2px;
+    transition:  0.5s ease-in-out;
+}
+
+nav .menu-tong li:hover::after{
+    width: 100%;
+}

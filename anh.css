@@ -1,0 +1,104 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.in-wrapper table{
+float: left;
+width: 48%;
+}
+.in-wrapper table td{
+    width: 120px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.in-wrapper .anh img{
+    width: 200px;
+}
+.trangchu {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    background-color: #259725;
+    cursor: pointer;
+    
+}
+.trangchu:hover{
+    background-color: #25978d;
+    color: white;
+}
+.header a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.in-content{
+    border: 1px solid #ccc;
+    float: right;
+    width:50%;
+    height: 400px;
+}
+.in-content ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(11, 173, 248);
+}
+.in-content ul li a:hover{
+    color: gray !important;
+    transition: 0.2s ease-in-out;
+}
+.in-content ul li{
+    float: left;
+    border-radius: 10px;
+    /* box-shadow: 0 0 2px 2px gray; */
+    margin: 10px;
+    list-style: none;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+
+}
+.in-content ul li:hover{
+    box-shadow: 0 0 3px 3px rgb(194, 187, 187);
+    transition: 0.5s ease-in-out;
+}
+
+.in-content img{
+    width: 150px;
+    padding: 5px;
+    border-radius: 12px;
+    /* box-shadow: 0 0 2px 2px gray ; */
+}
+form{
+    float:left;
+    border: 2px solid orange;
+    width: 600px;
+    margin: 20px;
+    font-size: 20px;
+}
+form input{
+    width: 80%;
+    padding: 6px;
+    outline: none;
+    margin: auto;
+    margin: 10px;
+}
+form .info{
+    width: 80%;
+    padding: 6px;
+    outline: none;
+    margin: auto;
+    margin: 10px;
+}
+.btn input{
+    width: 120px;
+    cursor: pointer;
+    background-color: orange;
+    border: 1px solid grey;
+}
